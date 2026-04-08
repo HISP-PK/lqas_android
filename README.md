@@ -1,33 +1,93 @@
-# DQ App Android
+# LQAS Android
 
-Public-safe source snapshot for the Android DQ app.
+Android application for DHIS2-based LQAS data validation and reporting.
 
-## Included
+## Download
 
-- Android app source under `app/src`
-- Gradle build files
-- Gradle wrapper files needed to build the project
+### Option 1: Clone with Git
 
-## Excluded From This Public Copy
+```bash
+git clone https://github.com/HISP-PK/lqas_android.git
+cd lqas_android
+```
 
-- Signing materials such as keystores and `keystore.properties`
-- Local SDK and machine-specific configuration such as `local.properties`
-- IDE metadata and Gradle caches
-- Build outputs such as APKs, AABs, and generated folders
-- Backups, memory dumps, and Play Console assets
+### Option 2: Download ZIP
 
-## Build Notes
+1. Open the repository on GitHub.
+2. Click `Code`.
+3. Click `Download ZIP`.
+4. Extract the ZIP to a folder on your computer.
 
-1. Open the project in Android Studio.
-2. Let Android Studio recreate `local.properties`.
-3. Build the debug variant first.
-4. Add your own signing configuration if you need a release build.
+## Requirements
 
-## Publishing Notes
+- Android Studio Hedgehog or newer
+- Android SDK installed through Android Studio
+- JDK 17
+- Internet connection to connect to your DHIS2 server
+- Android device or emulator running Android 5.0 (API 21) or above
 
-Before pushing changes, review:
+## Open the Project
 
-- No secrets in source or config files
-- No generated output under `build/` or `app/build/`
-- No signing keys or passwords
+1. Open Android Studio.
+2. Click `Open`.
+3. Select the `lqas_android` folder.
+4. Wait for Gradle sync to finish.
 
+Android Studio should generate `local.properties` automatically.
+
+## Build the App
+
+### Debug build from Android Studio
+
+1. Open the project.
+2. Wait for Gradle sync.
+3. Click `Run` to install the debug build on a connected device or emulator.
+
+### Debug APK from terminal
+
+On Windows PowerShell:
+
+```powershell
+.\gradlew.bat assembleDebug
+```
+
+Generated APK:
+
+```text
+app\build\outputs\apk\debug\app-debug.apk
+```
+
+## Install on an Android Device
+
+### Install directly from Android Studio
+
+1. Enable Developer Options on the phone.
+2. Enable USB debugging.
+3. Connect the phone to the computer.
+4. Click `Run` in Android Studio.
+
+### Install APK manually with ADB
+
+Build the debug APK first, then run:
+
+```powershell
+adb install -r app\build\outputs\apk\debug\app-debug.apk
+```
+
+If `adb` is not found, open it from the Android SDK platform-tools folder.
+
+## Release Build
+
+This public repository does not include signing keys or release keystore files.
+
+If you need a release APK or AAB:
+
+1. Create your own keystore.
+2. Add your own local signing configuration.
+3. Build the release variant in your private environment.
+
+## Notes
+
+- The app connects to the DHIS2 server URL entered by the user.
+- Use HTTPS for production deployments.
+- Do not commit keystore files, passwords, or local machine configuration.
