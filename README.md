@@ -90,4 +90,3 @@ If you need a release APK or AAB:
 
 - The app connects to the DHIS2 server URL entered by the user.
 - Use HTTPS for production deployments.
-- Do not commit keystore files, passwords, or local machine configuration.
