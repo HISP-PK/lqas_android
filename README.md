@@ -94,12 +94,13 @@ You also need to specify the organisational unit levels based on your DHIS2 setu
 For LQAS create and assigne district-wise access users, so they can only see and validate data for their own district. This helps keep the work organized and avoids overlap.
 ### Activity Screen Picture-1
 <img width="975" height="550" alt="image" src="https://github.com/user-attachments/assets/ea7f14b4-21f9-4150-915d-edb768f2ae1f" />
-### Activity Screen info-1
+
+#### Activity Screen info-1
 LQAS activities are usually conducted on a monthly basis, so you need to select the relevant period. After that, choose the district. A district-level user will only see their own district, while users at higher levels can view multiple districts.
 
 Next, select the dataset from which you want to randomly pick data elements for validation. You also need to set the benchmark and define how many data elements you want to validate.
 
-Once everything is set, tap on Load/Generate. The app will then display the selected facilities along with randomly generated data elements for validation.
+Once everything is set, tap on Load/Generate. The app will then display the facilities along with randomly generated data elements for validation.
 
 ### Activity Screen Picture-2
 ### Activity Screen info-2
