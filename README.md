@@ -1,6 +1,6 @@
 # LQAS Android
 
-Android application for DHIS2-based LQAS data validation and reporting.
+Android application for DHIS2-based LQAS data validation.
 
 ## Download
 
@@ -43,21 +43,6 @@ Android Studio should generate `local.properties` automatically.
 2. Wait for Gradle sync.
 3. Click `Run` to install the debug build on a connected device or emulator.
 
-### Debug APK from terminal
-
-On Windows PowerShell:
-
-```powershell
-.\gradlew.bat assembleDebug
-```
-
-Generated APK:
-
-```text
-app\build\outputs\apk\debug\app-debug.apk
-```
-
-## Install on an Android Device
 
 ### Install directly from Android Studio
 
@@ -65,16 +50,6 @@ app\build\outputs\apk\debug\app-debug.apk
 2. Enable USB debugging.
 3. Connect the phone to the computer.
 4. Click `Run` in Android Studio.
-
-### Install APK manually with ADB
-
-Build the debug APK first, then run:
-
-```powershell
-adb install -r app\build\outputs\apk\debug\app-debug.apk
-```
-
-If `adb` is not found, open it from the Android SDK platform-tools folder.
 
 ## Release Build
 
