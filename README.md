@@ -7,10 +7,10 @@ The app allows users to generate a random sample of data elements from a specifi
 
 During validation, users review randomly selected data entries (for example ANC1) and mark them accordingly:
 
-Y for match
-N for no match
-S for skip
-X for missing (excluded from the total sample size)
+Y for match,
+N for no match,
+S for skip,
+X for missing (excluded from the total sample size).
 
 Additionally, users can create a more focused dataset if they want a targeted or biased validation. This custom dataset can then be used within the app for validation purposes.
 
