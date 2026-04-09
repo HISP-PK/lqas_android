@@ -82,4 +82,33 @@ If you need a release APK or AAB:
 Available on PlayStore <a>https://play.google.com/store/apps/details?id=org.dhis2.dqapp&pcampaignid=web_share</a>
 
 ## Instructions to Use
-1.pics
+### Login Screen Picture
+<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/29648012-bde6-44b5-897f-2d69b7227a10" />
+
+
+### Login Screen info
+After downloading and installing the app, the first screen asks for the DHIS2 login details. You need to enter the server URL (for example, https://province1.dhis2.pk), along with your username and password.
+
+You also need to specify the organisational unit levels based on your DHIS2 setup. For example, you might enter level 3 for District and level 6 for Health Facility, depending on your specific DHIS2 implementation. If you are unsure about these levels, you should consult your DHIS2 implementation team for the correct configuration.
+
+For LQAS create and assigne district-wise access users, so they can only see and validate data for their own district. This helps keep the work organized and avoids overlap.
+### Activity Screen Picture-1
+<img width="975" height="550" alt="image" src="https://github.com/user-attachments/assets/ea7f14b4-21f9-4150-915d-edb768f2ae1f" />
+### Activity Screen info-1
+LQAS activities are usually conducted on a monthly basis, so you need to select the relevant period. After that, choose the district. A district-level user will only see their own district, while users at higher levels can view multiple districts.
+
+Next, select the dataset from which you want to randomly pick data elements for validation. You also need to set the benchmark and define how many data elements you want to validate.
+
+Once everything is set, tap on Load/Generate. The app will then display the selected facilities along with randomly generated data elements for validation.
+
+### Activity Screen Picture-2
+### Activity Screen info-2
+
+### Activity Screen Picture-3
+### Activity Screen info-3
+
+### Activity Screen Picture-4
+### Activity Screen info-4
+
+### Activity Screen Picture-5
+### Activity Screen info-5
