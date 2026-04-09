@@ -67,6 +67,7 @@ It does not include signing keys or release keystore files.
 
 If you need a release APK or AAB:
 
+
 1. Create your own keystore.
 2. Add your own local signing configuration.
 3. Build the release variant in your private environment.
@@ -75,3 +76,7 @@ If you need a release APK or AAB:
 
 - The app connects to the DHIS2 server URL entered by the user.
 - Use HTTPS for production deployments.
+
+## Using the App
+
+Available on PlayStore <a>https://play.google.com/store/apps/details?id=org.dhis2.dqapp&pcampaignid=web_share</a>
