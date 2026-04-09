@@ -80,3 +80,6 @@ If you need a release APK or AAB:
 ## Using the App
 
 Available on PlayStore <a>https://play.google.com/store/apps/details?id=org.dhis2.dqapp&pcampaignid=web_share</a>
+
+## Instructions to Use
+1.pics
