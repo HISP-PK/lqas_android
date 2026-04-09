@@ -1,8 +1,18 @@
 # LQAS Android
 
 Android application for DHIS2-based LQAS data validation.
+LQAS Insight is a data validation app designed to verify whether the data entered into the system matches the records available in registers. It connects with DHIS2 using a URL, username, and password, and generates validation reports based on the selected criteria.
 
-## Download
+The app allows users to generate a random sample of data elements from a specific form or dataset for a defined reporting period and selected org units. At the district level, where multiple facilities may exist, validators can choose which facilities to include. Only the selected facilities are counted as the denominator, while others can be ignored. The system then calculates an overall average for the district based on the selected facilities.
+
+During validation, users review randomly selected data entries (for example ANC1) and mark them accordingly:
+
+Y for match
+N for no match
+S for skip
+X for missing (excluded from the total sample size)
+
+Additionally, users can create a more focused dataset if they want a targeted or biased validation. This custom dataset can then be used within the app for validation purposes.
 
 ### Option 1: Clone with Git
 
