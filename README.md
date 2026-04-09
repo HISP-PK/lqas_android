@@ -63,7 +63,7 @@ Android Studio should generate `local.properties` automatically.
 
 ## Release Build
 
-This public repository does not include signing keys or release keystore files.
+It does not include signing keys or release keystore files.
 
 If you need a release APK or AAB:
 
