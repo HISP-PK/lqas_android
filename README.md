@@ -103,13 +103,36 @@ Next, select the dataset from which you want to randomly pick data elements for 
 Once everything is set, tap on Load/Generate. The app will then display the facilities along with randomly generated data elements for validation.
 
 ### Activity Screen Picture-2
-### Activity Screen info-2
+<img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/ada27f3a-6c54-4ee6-b0e3-8c5d1ed77e83" />
+2.2
+<img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/46e80b2b-c22c-465e-b0a5-c818ff9e759d" />
+2.3
+<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/79f2153d-6398-4de7-8731-5dd4e0553a50" />
+2.4
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/650e6eb9-1baa-4969-89be-65ab4e0e3c2b" />
+2.5
+<img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/df25399f-0a73-4dc4-b404-6884bc667e38" />
 
+### Activity Screen info-2
+After clicking Load/Generate, a table will appear showing the list of facilities along with their Union Council or parent information. There is a Denominator checkbox column, which you can use to include or exclude specific facilities. Although all facilities are listed, LQAS may only be conducted for a selected number of them, not necessarily all.
+
+The other columns show the selected data elements, where you can mark each entry using the following options:
+
+Y for match,
+N for no match,
+S for skip,
+X for missing (this will be excluded from the total sample size),
+
+Once you have completed the validation, click on the Calculate button to generate the results. After that, you can click Save if you want to store the results.
 ### Activity Screen Picture-3
+<img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/5789db88-5d1f-49f6-b5f5-a55c3cd3f968" />
+
 ### Activity Screen info-3
+Loading the Saved Records--> Drop Down menu to list Available saved records.
 
 ### Activity Screen Picture-4
-### Activity Screen info-4
+<img width="975" height="542" alt="image" src="https://github.com/user-attachments/assets/4234df21-15f1-4ea4-9066-8ba707ff8aad" />
+<img width="975" height="539" alt="image" src="https://github.com/user-attachments/assets/5bfa0c9b-9f04-41d2-8f5d-7666a390e7e2" />
 
-### Activity Screen Picture-5
-### Activity Screen info-5
+### Activity Screen info-4
+Click on Export to csv and save as pdf to share the results.
