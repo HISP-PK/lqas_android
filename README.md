@@ -118,7 +118,7 @@ Once everything is set, tap on Load/Generate. The app will then display the faci
 <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/df25399f-0a73-4dc4-b404-6884bc667e38" />
 
 ### Activity Screen info-2
-After clicking Load/Generate, a table will appear showing the list of facilities along with their Union Council or parent information. There is a Denominator checkbox column, which you can use to include or exclude specific facilities. Although all facilities are listed, LQAS may only be conducted for a selected number of them, not necessarily all.
+After clicking Load/Generate, a table will appear showing the list of facilities along with their Union Council or parent information. There is a Denominator checkbox column, which you can use to include or exclude specific facilities. Although all facilities are listed, LQAS may only be conducted for a selected number of Facilities (not all).
 
 The other columns show the selected data elements, where you can mark each entry using the following options:
 
