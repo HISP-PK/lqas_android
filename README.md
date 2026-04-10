@@ -104,13 +104,17 @@ Once everything is set, tap on Load/Generate. The app will then display the faci
 
 ### Activity Screen Picture-2
 <img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/ada27f3a-6c54-4ee6-b0e3-8c5d1ed77e83" />
-<br>2.2
+
+#### <br>2.2
 <img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/46e80b2b-c22c-465e-b0a5-c818ff9e759d" />
-<br>2.3
+
+#### <br>2.3
 <img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/79f2153d-6398-4de7-8731-5dd4e0553a50" />
-<br>2.4
+
+#### <br>2.4
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/650e6eb9-1baa-4969-89be-65ab4e0e3c2b" />
-<br>2.5
+
+#### <br>2.5
 <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/df25399f-0a73-4dc4-b404-6884bc667e38" />
 
 ### Activity Screen info-2
