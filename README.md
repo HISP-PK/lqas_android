@@ -127,7 +127,7 @@ N for no match,<br>
 S for skip,<br>
 X for missing (this will be excluded from the total sample size),
 
-Once you have completed the validation, click on the Calculate button to generate the results. After that, you can click Save if you want to store the results.
+Once you have completed the validation, click on the Calculate button to generate the results. After that, you can click Save if you want to store the results. (see pic 2.2, 2.3, 2.4, 2.5)
 ### Activity Screen Picture-3
 <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/5789db88-5d1f-49f6-b5f5-a55c3cd3f968" />
 
