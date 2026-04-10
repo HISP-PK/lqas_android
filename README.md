@@ -104,13 +104,13 @@ Once everything is set, tap on Load/Generate. The app will then display the faci
 
 ### Activity Screen Picture-2
 <img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/ada27f3a-6c54-4ee6-b0e3-8c5d1ed77e83" />
-2.2
+<br>2.2
 <img width="975" height="457" alt="image" src="https://github.com/user-attachments/assets/46e80b2b-c22c-465e-b0a5-c818ff9e759d" />
-2.3
+<br>2.3
 <img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/79f2153d-6398-4de7-8731-5dd4e0553a50" />
-2.4
+<br>2.4
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/650e6eb9-1baa-4969-89be-65ab4e0e3c2b" />
-2.5
+<br>2.5
 <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/df25399f-0a73-4dc4-b404-6884bc667e38" />
 
 ### Activity Screen info-2
@@ -118,9 +118,9 @@ After clicking Load/Generate, a table will appear showing the list of facilities
 
 The other columns show the selected data elements, where you can mark each entry using the following options:
 
-Y for match,
-N for no match,
-S for skip,
+Y for match,<br>
+N for no match,<br>
+S for skip,<br>
 X for missing (this will be excluded from the total sample size),
 
 Once you have completed the validation, click on the Calculate button to generate the results. After that, you can click Save if you want to store the results.
